@@ -54,7 +54,7 @@ export default {
 npm run dev
 ```
 
-Install other dependencies 
+### Install other dependencies 
 ```
-npm i react-router-dom
+npm i react-router-dom react-icons
 ```
