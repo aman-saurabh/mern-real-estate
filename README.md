@@ -53,3 +53,8 @@ export default {
 ```
 npm run dev
 ```
+
+Install other dependencies 
+```
+npm i react-router-dom
+```
