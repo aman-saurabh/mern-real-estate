@@ -15,8 +15,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js",
+    "start": "cross-env NODE_ENV=prod node api/index.js",
+    "stage": "cross-env NODE_ENV=stage node api/index.js",
+    "dev": "cross-env NODE_ENV=dev nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "nodemon": "^3.1.14"
   }
 }
