@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "![1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)",
+  "homepage": "https://github.com/aman-saurabh/mern-real-estate#readme",
+  "bugs": {
+    "url": "https://github.com/aman-saurabh/mern-real-estate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman-saurabh/mern-real-estate.git"
+  },
+  "license": "ISC",
+  "author": "Aman Saurabh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
